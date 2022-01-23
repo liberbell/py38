@@ -104,3 +104,8 @@ class Dog():
         self.age = age
         self.name = name
         self.vaccinated = vaccinated
+
+        print("Instance initialized")
+
+        def get_kind(self):
+            return self.kind
