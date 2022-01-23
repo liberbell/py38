@@ -78,3 +78,16 @@ dog_2 = Dog("Pub", 4, "Alex", True)
 
 print(dog_1.__dict__)
 print(dog_2.__dict__)
+print(dog_2.name, dog_2.kind)
+
+class Dog:
+    def __init__(self, kind, age, name, vaccinated=False):
+        self.kind = kind
+        self.age = age
+        self.name = name
+        self.vaccinated = vaccinated
+
+        print("Instance initialized")
+    
+    def get_details(self):
+        return f"Nmae: {self.name}, Kind: {self.kind}, Age: {self.age}"
