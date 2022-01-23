@@ -5,3 +5,5 @@ print(type(Dog))
 
 dog_1 = Dog()
 dog_2 = Dog()
+
+print(dog_1)
