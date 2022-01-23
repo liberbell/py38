@@ -109,3 +109,9 @@ class Dog():
 
         def get_kind(self):
             return self.kind
+        
+        def get_kind(self, kind):
+            self.kind = kind
+
+        def get_age(self):
+            return self.age
