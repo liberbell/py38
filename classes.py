@@ -26,3 +26,10 @@ class Dog:
     age = 0
     name = ""
     vaccinated = False
+
+dog_1.kind = "Golden Retriver"
+dog_1.age = 5
+dog_1.name = "Fido"
+dog_1.vaccinated = True
+
+print(dog_1.kind, dog_1.age, dog_1.name, dog_1.vaccinated)
