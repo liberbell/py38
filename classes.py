@@ -94,3 +94,6 @@ class Dog:
 
 dog_1 = Dog("Golden Retriver", 6, "Eric")
 dog_2 = Dog("Pub", 4, "Alex", True)
+
+dog_1.get_details()
+dog_2.get_details()
