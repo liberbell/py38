@@ -19,3 +19,10 @@ dog_1.life = "12-16 years."
 dog_2.kind = "Labrador Retriever"
 
 print(dir(dog_1))
+print(dir(dog_2))
+
+class Dog:
+    kind = ""
+    age = 0
+    name = ""
+    vaccinated = False
