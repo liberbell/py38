@@ -116,3 +116,8 @@ class Dog():
             return self.age
         def set_age(self, age):
             self.age = age
+
+        def get_name(self):
+            return self.name
+        def set_name(self, name):
+            self.name = name
