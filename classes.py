@@ -48,3 +48,11 @@ class Dog:
         print("Instance initialized")
 
 dog_1 = Dog()
+dog_2 = Dog()
+
+class Dog:
+    def __init__():
+        print("Instance initialized")
+
+dog_1 = Dog()
+dog_2 = Dog()
