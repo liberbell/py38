@@ -50,8 +50,15 @@ class Dog:
 dog_1 = Dog()
 dog_2 = Dog()
 
+# class Dog:
+#     def __init__():
+#         print("Instance initialized")
+
+# dog_1 = Dog()
+# dog_2 = Dog()
+
 class Dog:
-    def __init__():
+    def __init__(variable_for_self_can_have_any_name):
         print("Instance initialized")
 
 dog_1 = Dog()
