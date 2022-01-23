@@ -91,3 +91,6 @@ class Dog:
     
     def get_details(self):
         return f"Nmae: {self.name}, Kind: {self.kind}, Age: {self.age}"
+
+dog_1 = Dog("Golden Retriver", 6, "Eric")
+dog_2 = Dog("Pub", 4, "Alex", True)
