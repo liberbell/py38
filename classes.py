@@ -63,3 +63,15 @@ class Dog:
 
 dog_1 = Dog()
 dog_2 = Dog()
+
+class Dog:
+    def __init__(self, kind, age, name, vaccinated=False):
+        self.kind = kind
+        self.age = age
+        self.name = name
+        self.vaccinated = vaccinated
+
+        print("Instance initialized")
+
+dog_1 = Dog()
+dog_2 = Dog()
