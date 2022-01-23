@@ -73,5 +73,5 @@ class Dog:
 
         print("Instance initialized")
 
-dog_1 = Dog()
-dog_2 = Dog()
+dog_1 = Dog("Golden Retriver", 6, "Eric")
+dog_2 = Dog("Pub", 4, "Alex")
