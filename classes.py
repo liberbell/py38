@@ -36,3 +36,9 @@ print(dog_1.kind, dog_1.age, dog_1.name, dog_1.vaccinated)
 
 dog_2 = Dog()
 print(dog_2.kind, dog_2.age, dog_2.name, dog_2.vaccinated)
+
+dog_2.kind = "Pug"
+dog_2.age = 2
+dog_2.name = "Suki"
+dog_2.vaccinated = True
+print(dog_2.kind, dog_2.age, dog_2.name, dog_2.vaccinated)
