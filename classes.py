@@ -109,9 +109,10 @@ class Dog():
 
         def get_kind(self):
             return self.kind
-        
-        def get_kind(self, kind):
+        def set_kind(self, kind):
             self.kind = kind
 
         def get_age(self):
             return self.age
+        def set_age(self, age):
+            self.age = age
