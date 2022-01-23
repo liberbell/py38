@@ -10,3 +10,6 @@ print(dog_1)
 print(dog_2)
 
 print(isinstance(dog_1, Dog))
+print(isinstance(dog_2, Dog))
+print(type(dog_1))
+print(type(dog_2))
