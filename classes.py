@@ -121,3 +121,11 @@ class Dog():
             return self.name
         def set_name(self, name):
             self.name = name
+
+        def get_vaccinated(self):
+            return self.vaccinated
+        def set_vaccinated(self, vaccinated):
+            self.vaccinated = vaccinated
+    
+        def get_details(self):
+            return f"Nmae: {self.name}, Kind: {self.kind}, Age: {self.age}"
