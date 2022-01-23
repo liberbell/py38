@@ -42,3 +42,7 @@ dog_2.age = 2
 dog_2.name = "Suki"
 dog_2.vaccinated = True
 print(dog_2.kind, dog_2.age, dog_2.name, dog_2.vaccinated)
+
+class Dog:
+    def __init__(self):
+        print("Instance initialized")
