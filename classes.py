@@ -74,4 +74,7 @@ class Dog:
         print("Instance initialized")
 
 dog_1 = Dog("Golden Retriver", 6, "Eric")
-dog_2 = Dog("Pub", 4, "Alex")
+dog_2 = Dog("Pub", 4, "Alex", True)
+
+print(dog_1.__dict__)
+print(dog_2.__dict__)
