@@ -46,3 +46,5 @@ print(dog_2.kind, dog_2.age, dog_2.name, dog_2.vaccinated)
 class Dog:
     def __init__(self):
         print("Instance initialized")
+
+dog_1 = Dog()
