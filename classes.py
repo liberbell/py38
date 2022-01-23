@@ -97,3 +97,10 @@ dog_2 = Dog("Pub", 4, "Alex", True)
 
 # print(dog_1.get_details())
 # print(dog_2.get_details())
+
+class Dog():
+    def __init__(self, kind, age, name, vaccinated=False):
+        self.kind = kind
+        self.age = age
+        self.name = name
+        self.vaccinated = vaccinated
