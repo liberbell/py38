@@ -18,6 +18,9 @@
 #     print("Oops an exception was thrown.")
 # print("outside the try/except block")
 
+from logging import exception
+
+
 try:
     user_input = input("Please input an integer: ")
     result = 100 / int(user_input)
@@ -29,3 +32,5 @@ except ZeroDivisionError as zde:
     print("Oops a zero divided was thrown.")
     print("Error type: ", type(zde))
 print("outside the try/except block")
+
+print(issubclass(ValueError, Exception))
