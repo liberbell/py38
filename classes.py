@@ -135,3 +135,5 @@ dog_2 = Dog("Pub", 4, "Alex", True)
 
 print(dog_1.get_details())
 print(dog_2.get_details())
+
+print(Dog.get_details(dog_1))
