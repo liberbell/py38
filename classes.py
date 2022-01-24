@@ -107,26 +107,26 @@ class Dog():
 
         print("Instance initialized")
 
-        def get_kind(self):
-            return self.kind
-        def set_kind(self, kind):
-            self.kind = kind
+    def get_kind(self):
+        return self.kind
+    def set_kind(self, kind):
+        self.kind = kind
 
-        def get_age(self):
-            return self.age
-        def set_age(self, age):
-            self.age = age
+    def get_age(self):
+        return self.age
+    def set_age(self, age):
+        self.age = age
 
-        def get_name(self):
-            return self.name
-        def set_name(self, name):
-            self.name = name
+    def get_name(self):
+        return self.name
+    def set_name(self, name):
+        self.name = name
 
-        def get_vaccinated(self):
-            return self.vaccinated
-        def set_vaccinated(self, vaccinated):
-            self.vaccinated = vaccinated
-    
+    def get_vaccinated(self):
+        return self.vaccinated
+    def set_vaccinated(self, vaccinated):
+        self.vaccinated = vaccinated
+
     def get_details(self):
         return f"Nmae: {self.name}, Kind: {self.kind}, Age: {self.age}"
 
@@ -137,3 +137,6 @@ print(dog_1.get_details())
 print(dog_2.get_details())
 
 print(Dog.get_details(dog_1))
+
+dog_1.set_age(5)
+print(dog_1.get_details())
