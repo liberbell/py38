@@ -5,3 +5,7 @@
 try:
     user_input = input("Please input an integer: ")
     result = 100 / int(user_input)
+    print("100 divided by the integer you input: ", result)
+except ValueError:
+    print("Oops an exception was thrown.")
+print("outside the try/except block")
