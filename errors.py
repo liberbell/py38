@@ -63,4 +63,4 @@ try:
 except Exception as exe:
     print("Exception: ", exe)
     print("Type: ", type(exe))
-    
+    print("Arguments: ", exe.args)
