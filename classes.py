@@ -127,5 +127,11 @@ class Dog():
         def set_vaccinated(self, vaccinated):
             self.vaccinated = vaccinated
     
-        def get_details(self):
-            return f"Nmae: {self.name}, Kind: {self.kind}, Age: {self.age}"
+    def get_details(self):
+        return f"Nmae: {self.name}, Kind: {self.kind}, Age: {self.age}"
+
+dog_1 = Dog("Golden Retriver", 6, "Eric")
+dog_2 = Dog("Pub", 4, "Alex", True)
+
+print(dog_1.get_details())
+print(dog_2.get_details())
