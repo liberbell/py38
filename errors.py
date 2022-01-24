@@ -57,10 +57,19 @@ from logging import exception
 #     print("Successfully executed the code in the try block.")
 # print("outside the try/except block")
 
+# try:
+#     raise Exception("green", "eggs", "and", "ham")
+
+# except Exception as exe:
+#     print("Exception: ", exe)
+#     print("Type: ", type(exe))
+#     print("Arguments: ", exe.args)
+
 try:
     raise Exception("green", "eggs", "and", "ham")
 
 except Exception as exe:
-    print("Exception: ", exe)
-    print("Type: ", type(exe))
-    print("Arguments: ", exe.args)
+
+    arg_1, arg_2, arg_3, arg_4 = exe.args
+
+print(arg_1, arg_2, arg_3, arg_4)
