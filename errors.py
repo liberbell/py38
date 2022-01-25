@@ -85,7 +85,7 @@ def exception_raising_fn(switch):
         print("Executed without exception.")
 
 try:
-    exception_raising_fn(1)
+    exception_raising_fn(2)
 except ValueError as ve:
     print("Oops a Value error was thrown.")
     print("Error type: ", type(ve))
