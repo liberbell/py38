@@ -86,3 +86,12 @@ def exception_raising_fn(switch):
 
 try:
     exception_raising_fn(1)
+except ValueError as ve:
+    print("Oops a Value error was thrown.")
+    print("Error type: ", type(ve))
+except NameError as ne:
+    print("Oops a Name error was thrown.", ne)
+    print("Error type: ", type(ne))
+except TypeError as te:
+    print("Oops a type error was thrown.", te)
+    print("Error type: ", type(te))
