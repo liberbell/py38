@@ -65,11 +65,18 @@ from logging import exception
 #     print("Type: ", type(exe))
 #     print("Arguments: ", exe.args)
 
-try:
-    raise Exception("green", "eggs", "and", "ham")
+# try:
+#     raise Exception("green", "eggs", "and", "ham")
 
-except Exception as exe:
+# except Exception as exe:
 
-    arg_1, arg_2, arg_3, arg_4 = exe.args
+#     arg_1, arg_2, arg_3, arg_4 = exe.args
 
-print(arg_1, arg_2, arg_3, arg_4)
+# print(arg_1, arg_2, arg_3, arg_4)
+
+def exception_raising_fn(switch):
+    if switch == 1:
+        raise ValueError("Value specified was wrong.")
+    elif switch == 2:
+        raise NameError("Identifier not defined in the local or global scope.")
+    elif switch == 3:
