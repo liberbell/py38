@@ -80,3 +80,6 @@ def exception_raising_fn(switch):
     elif switch == 2:
         raise NameError("Identifier not defined in the local or global scope.")
     elif switch == 3:
+        raise TypeError
+    else:
+        print("Executed without exception.")
