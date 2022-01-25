@@ -85,7 +85,7 @@ def exception_raising_fn(switch):
         print("Executed without exception.")
 
 try:
-    exception_raising_fn(2)
+    exception_raising_fn(3)
 except ValueError as ve:
     print("Oops a Value error was thrown.")
     print("Error type: ", type(ve))
@@ -95,3 +95,5 @@ except NameError as ne:
 except TypeError as te:
     print("Oops a type error was thrown.", te)
     print("Error type: ", type(te))
+finally:
+    print("Always executed.")
