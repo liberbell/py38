@@ -83,3 +83,6 @@ def exception_raising_fn(switch):
         raise TypeError
     else:
         print("Executed without exception.")
+
+try:
+    exception_raising_fn(1)
