@@ -1,4 +1,3 @@
-from ast import If
 import sys
 from employee import create_employee
 
