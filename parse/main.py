@@ -16,6 +16,7 @@
 #     emplo.display_detail()
 
 import argparse
+from employee import create_employee
 
 parser = argparse.ArgumentParser(description="Parsing employee details.")
 
@@ -25,4 +26,5 @@ parser.add_argument("--salary", help="Please specify the employee's salary.", ty
 
 if __name__ == "__main__":
     args = parser.parse_args()
-    print(args)
+    emplo = create_employee(args.name, args.department, args.salary)
+    emplo.display_detail()
