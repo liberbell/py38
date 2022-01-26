@@ -11,3 +11,6 @@ class Employee:
         print(f"Department: {self.__department}")
         print(f"Salary: {self.__salary}")
         print(f"Organization: {Employee.__organization}")
+
+employee_denvor = Employee("Denvor", "HR", 67000)
+employee_denvor.display_detail()
