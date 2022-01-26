@@ -8,7 +8,8 @@
 #     print("All argument: ", sys.argv)
 
 #     name = sys.argv[1]
-#     department = sys.argv[2]
+#     deparmain10
+# tment = sys.argv[2]
 #     salary = int(sys.argv[3])
 
 #     emplo = create_employee(name, department, salary)
@@ -19,7 +20,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Parsing employee details.")
 
 parser.add_argument("--name", help="Please specify the employee's name.", type=str)
-parser.add_argument("--depoartment", help="Please specify the employee's department.", type=str)
+parser.add_argument("--department", help="Please specify the employee's department.", type=str)
 parser.add_argument("--salary", help="Please specify the employee's salary.", type=int)
 
 if __name__ == "__main__":
