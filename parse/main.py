@@ -16,11 +16,12 @@
 
 import argparse
 
-parser = argparse.ArgumentParser(description="")
+parser = argparse.ArgumentParser(description="Parsing employee details.")
 
-parser.add_argument("--name", help="Please specify the employee name.")
+parser.add_argument("--name", help="Please specify the employee's name.", type=str)
 parser.add_argument("--depoartment", help="Please specify the employee department.")
 parser.add_argument("--salary", help="Please specify")
 
 if __name__ == "__main__":
     args = parser.parse_args()
+    print(args)
