@@ -16,3 +16,5 @@ def create_employee(name, department, salary):
     employee = Employee(name, department, salary)
     # employee = employee.Employee(name, department, salary)
     return employee
+
+print("In employee **********", __name__)
